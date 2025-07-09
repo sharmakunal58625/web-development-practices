@@ -1,0 +1,39 @@
+
+div{
+    height: 100px;
+    width: 100px;
+    background-color: aqua;
+    border: 2px solid black;
+    position: absolute;
+    top: 20px;
+    left: 400px;
+    animation-name: coloranimate;
+    animation-duration: 3s;
+    /* animation-timing-function: cubic-bezier(0.455, 0.03, 0.515, 0.955); */
+     animation-delay: 0s;
+    animation-iteration-count: infinite;
+    animation-direction: normal ; 
+    /* animation: coloranimate  3s ease ease-in 0s infinite alternate normal; */
+}
+/* @keyframes coloranimate{
+    from{background-color: aqua;}
+    to{background-color: black;}
+} */
+/* @keyframes coloranimate{
+    from{left :20px;
+    background-color: aqua;}
+    to{left :200px;
+    background-color: blue;}
+} */
+ @keyframes coloranimate{
+    0%{left :400px;
+    background-color: aqua;}
+    25%{left :600px;
+    background-color: blue;}
+    50%{top:400px;
+    background-color: rgb(125, 49, 96);}
+    75%{left:-20px;
+    background-color: rgb(63, 181, 50);}
+     100%{right:400px;
+    background-color: rgb(125, 172, 16);} 
+}  
