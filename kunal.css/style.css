@@ -1,0 +1,23 @@
+h3{
+    color:blue;
+}
+p{
+    color:rgb(119, 119, 119);
+}
+body {
+    background-color: white;
+}
+button{
+    color: black;
+    background-color:white ;
+}
+#heading2{
+    color:brown;
+}
+#heading1{
+    color:brown;
+}
+.myclass{
+    color :whitesmoke;
+    background-color: blue;
+}
