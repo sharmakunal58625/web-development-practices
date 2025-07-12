@@ -1,0 +1,11 @@
+let h1=document.querySelector("h1");
+console.log(h1);
+let id=h1.getAttribute("id");
+console.log(id);
+let h2=document.querySelector("h2");
+console.log(h2);
+let classs=h2.getAttribute("class");
+console.log(classs);
+console.log(h2.getAttribute("class"));
+//console.log(classs.setAttribute("class","newclassname"));
+console.log(h2.setAttribute("class","newclassname"));

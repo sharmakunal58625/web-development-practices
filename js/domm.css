@@ -1,0 +1,17 @@
+h1{
+    color: azure;
+    background-color: black;
+}
+div{
+    height: 100px;
+    width: 100px;
+    background-color: brown;
+}
+button{
+    color: aliceblue;
+    background-color: black;
+}
+p{
+    background-color: blue;
+}
+
